@@ -63,3 +63,6 @@ def download_nyctaxi_data(years, path):
   print("-------------------")
   print("-Download complete-")
   print("-------------------")
+
+if __name__ == '__main__':
+  download_nyctaxi_data(["2016"], ".")
